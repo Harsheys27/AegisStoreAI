@@ -1,29 +1,44 @@
 import { createFileRoute } from "@tanstack/react-router";
+import Nav from "@/components/Nav";
+import SmoothScroll from "@/components/SmoothScroll";
+import Hero from "@/components/sections/Hero";
+import Problem from "@/components/sections/Problem";
+import Architecture from "@/components/sections/Architecture";
+import AIBrain from "@/components/sections/AIBrain";
+import Dashboard from "@/components/sections/Dashboard";
+import Comparison from "@/components/sections/Comparison";
+import Simulation from "@/components/sections/Simulation";
+import Training from "@/components/sections/Training";
+import Roadmap from "@/components/sections/Roadmap";
+import Contact from "@/components/sections/Contact";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Your App" },
-      { name: "description", content: "Replace this with a one-sentence description of your app." },
-      { property: "og:title", content: "Your App" },
-      { property: "og:description", content: "Replace this with a one-sentence description of your app." },
+      { title: "AegisStore AI — RL-Powered Multi-Tier Energy Storage" },
+      { name: "description", content: "AegisStore AI orchestrates flywheel, battery, hydrogen, and biomass storage with reinforcement learning. Extend backup from 6 to 24 hours." },
+      { property: "og:title", content: "AegisStore AI" },
+      { property: "og:description", content: "Reinforcement learning powered multi-tier energy storage intelligence." },
     ],
   }),
-  component: Index,
+  component: Page,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
-function Index() {
+function Page() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
+    <main id="top" className="relative min-h-screen">
+      <SmoothScroll />
+      <Nav />
+      <Hero />
+      <section id="problem"><Problem /></section>
+      <Architecture />
+      <AIBrain />
+      <Dashboard />
+      <Comparison />
+      <section id="simulator"><Simulation /></section>
+      <Training />
+      <Roadmap />
+      <section id="contact"><Contact /></section>
+    </main>
   );
 }
