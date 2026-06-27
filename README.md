@@ -1,4 +1,4 @@
-# 🛡️ AegisStore AI
+#  AegisStore AI
 
 ### Reinforcement Learning Powered Hybrid Storage Intelligence Platform
 
@@ -8,7 +8,7 @@ Instead of relying solely on batteries, AegisStore AI intelligently orchestrates
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 **HYBRID HACK 2026**
 
@@ -19,22 +19,22 @@ Many hybrid renewable systems experience battery depletion and degradation durin
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
-- 🧠 Reinforcement Learning Powered Hybrid Storage Allocator
-- ⚡ Multi-Tier Energy Storage Architecture
-- 🔋 Lithium-Ion Battery Storage
-- 🧪 Hydrogen Energy Storage (PEM Fuel Cell)
-- ⚡ Flywheel Energy Storage
-- 🔥 Biomass Backup Generation
-- 📊 Real-Time Digital Twin Dashboard
-- 📈 Performance Comparison with Conventional Systems
-- 🧪 Simulation Ready Architecture
-- 🌐 Smart Grid Ready
+- Reinforcement Learning Powered Hybrid Storage Allocator
+- Multi-Tier Energy Storage Architecture
+- Lithium-Ion Battery Storage
+- Hydrogen Energy Storage (PEM Fuel Cell)
+- Flywheel Energy Storage
+- Biomass Backup Generation
+- Real-Time Digital Twin Dashboard
+- Performance Comparison with Conventional Systems
+- Simulation Ready Architecture
+- Smart Grid Ready
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```text
                     Solar PV
