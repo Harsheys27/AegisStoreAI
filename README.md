@@ -75,7 +75,7 @@ Flywheel      Battery      Hydrogen          Biomass
 
 ---
 
-## 🧠 Reinforcement Learning Framework
+## Reinforcement Learning Framework
 
 ### State Space
 
@@ -110,7 +110,7 @@ Flywheel      Battery      Hydrogen          Biomass
 
 ---
 
-## 📊 Performance Targets
+## Performance Targets
 
 | Metric | Target |
 |----------|--------|
@@ -123,7 +123,7 @@ Flywheel      Battery      Hydrogen          Biomass
 
 ---
 
-## 🔄 Conventional System vs AegisStore AI
+## Conventional System vs AegisStore AI
 
 | Metric | Conventional System | AegisStore AI |
 |----------|-----------------|---------------|
@@ -136,7 +136,7 @@ Flywheel      Battery      Hydrogen          Biomass
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Frontend
 
@@ -169,7 +169,7 @@ Flywheel      Battery      Hydrogen          Biomass
 
 ---
 
-## 🗺️ Development Roadmap
+## Development Roadmap
 
 ### Phase 1
 Energy Simulation Environment
@@ -194,18 +194,18 @@ Smart Grid & Vehicle-to-Grid Integration
 
 ---
 
-## 🌍 Applications
+## Applications
 
-- 🏥 Hospitals
-- 📡 Telecom Towers
-- 🏢 Data Centers
-- 🌎 Rural Microgrids
-- 🏙 Smart Cities
-- ⚡ Critical Infrastructure
+- Hospitals
+- Telecom Towers
+- Data Centers
+- Rural Microgrids
+- Smart Cities
+- Critical Infrastructure
 
 ---
 
-## 🔮 Future Scope
+## Future Scope
 
 - Digital Twin Technology
 - Federated Reinforcement Learning
